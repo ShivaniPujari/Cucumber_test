@@ -1,0 +1,112 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-08T12:08:49.379Z",
+        "line": 22,
+        "name": "Home page Registertation",
+        "description": "",
+        "id": "application-login;home-page-registertation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5594000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User is at landing page",
+            "match": {
+              "location": "StepDefinations.stepDeination.User_is_at_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 95364000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User submit following details",
+            "match": {
+              "location": "StepDefinations.stepDeination.user_submit_following_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Firstname",
+                  "Lastname",
+                  "PhoneNumb",
+                  "MailID",
+                  "UserID",
+                  "Password",
+                  "CPassword"
+                ]
+              },
+              {
+                "cells": [
+                  "Shekhar",
+                  "kul",
+                  "9765301400",
+                  "gbhdh@gmail.com",
+                  "coolshekhar",
+                  "123456789",
+                  "123456789"
+                ]
+              },
+              {
+                "cells": [
+                  "Shivani",
+                  "puj",
+                  "1555541400",
+                  "sfddh@gmail.com",
+                  "cdslshekhar",
+                  "444444444",
+                  "444444444"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Home page is displayed",
+            "match": {
+              "location": "StepDefinations.stepDeination.Home_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 997000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Cards are displayed",
+            "match": {
+              "location": "StepDefinations.stepDeination.Cards_are_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Tagging.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,271 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-08T12:02:01.350Z",
+        "line": 11,
+        "name": "Home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14092000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User is at landing page",
+            "match": {
+              "location": "StepDefinations.stepDeination.User_is_at_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33527000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User login into application with username \"9881081436\" and password \"payment2.0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9881081436",
+                  "offset": 43
+                },
+                {
+                  "val": "payment2.0",
+                  "offset": 69
+                }
+              ],
+              "location": "StepDefinations.stepDeination.user_login_into_application_with_username_something_and_password_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Home page is displayed",
+            "match": {
+              "location": "StepDefinations.stepDeination.Home_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1370000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Cards are displayed",
+            "match": {
+              "location": "StepDefinations.stepDeination.Cards_are_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-08T12:02:50.471Z",
+        "line": 18,
+        "name": "Home page Registertation",
+        "description": "",
+        "id": "application-login;home-page-registertation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9556000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User is at landing page",
+            "match": {
+              "location": "StepDefinations.stepDeination.User_is_at_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 190107000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User submit following details",
+            "match": {
+              "location": "StepDefinations.stepDeination.user_submit_following_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Firstname",
+                  "Lastname",
+                  "PhoneNumb",
+                  "MailID",
+                  "UserID",
+                  "Password",
+                  "CPassword"
+                ]
+              },
+              {
+                "cells": [
+                  "Shekhar",
+                  "kul",
+                  "9765301400",
+                  "gbhdh@gmail.com",
+                  "coolshekhar",
+                  "123456789",
+                  "123456789"
+                ]
+              },
+              {
+                "cells": [
+                  "Shivani",
+                  "puj",
+                  "1555541400",
+                  "sfddh@gmail.com",
+                  "cdslshekhar",
+                  "444444444",
+                  "444444444"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Home page is displayed",
+            "match": {
+              "location": "StepDefinations.stepDeination.Home_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1047000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Cards are displayed",
+            "match": {
+              "location": "StepDefinations.stepDeination.Cards_are_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Reg"
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-08T12:06:11.201Z",
+        "line": 7,
+        "name": "Home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6026000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is at landing page",
+            "match": {
+              "location": "StepDefinations.stepDeination.User_is_at_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5732000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User login into application with username \"8237545620\" and password \"@fruit4bird@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8237545620",
+                  "offset": 43
+                },
+                {
+                  "val": "@fruit4bird@",
+                  "offset": 69
+                }
+              ],
+              "location": "StepDefinations.stepDeination.user_login_into_application_with_username_something_and_password_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Home page is displayed",
+            "match": {
+              "location": "StepDefinations.stepDeination.Home_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1615000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Cards are displayed",
+            "match": {
+              "location": "StepDefinations.stepDeination.Cards_are_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Reg"
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Tagging.feature",
+    "tags": []
+  }
+]
